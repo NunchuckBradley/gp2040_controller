@@ -109,6 +109,8 @@ struct AddonOptions {
 	OnBoardLedMode onBoardLedMode;
 	uint8_t analogAdcPinX;
 	uint8_t analogAdcPinY;
+	uint8_t analogAdcRightPinX;
+	uint8_t analogAdcRightPinY;
 	uint16_t bootselButtonMap;
 	uint8_t extraButtonPin;
 	uint16_t extraButtonMap;

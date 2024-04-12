@@ -171,6 +171,8 @@ void Storage::setDefaultAddonOptions()
 	addonOptions.dualDirCombineMode     = DUAL_DIRECTIONAL_COMBINE_MODE;
 	addonOptions.analogAdcPinX      	= ANALOG_ADC_VRX;
 	addonOptions.analogAdcPinY      	= ANALOG_ADC_VRY;
+	addonOptions.analogAdcRightPinX   	= ANALOG_ADC_RIGHT_VRX;
+	addonOptions.analogAdcRightPinY     = ANALOG_ADC_RIGHT_VRY;
 	addonOptions.bootselButtonMap		= BOOTSEL_BUTTON_MASK;
 	addonOptions.buzzerPin              = BUZZER_PIN;
 	addonOptions.buzzerVolume           = BUZZER_VOLUME;
